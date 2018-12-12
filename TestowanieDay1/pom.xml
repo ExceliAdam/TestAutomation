@@ -17,6 +17,11 @@
             <version>5.3.2</version>
             <scope>test</scope><!-- To oznacza, że wykorzystamy przy uruchomieniu testów -->
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
     </dependencies>
 
 <!--Jakiej wersji Javy użyć przy kompilacji-->
