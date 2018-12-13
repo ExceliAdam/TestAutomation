@@ -1,15 +1,22 @@
 package selenium.pageobjectswordpress.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class WordPressMainPage {
 
-    public static final String BLOG_URL = "https://automatyzacja.benedykt.net/";
-    private final WebDriver wpDriver;
+    private static final String BLOG_URL = "https://automatyzacja.benedykt.net/";
+    private final WebDriver driver;
 
     public WordPressMainPage(WebDriver driver){
-        wpDriver = driver;
-        wpDriver.get(BLOG_URL);
+        this.driver = driver;
+        this.driver.get(BLOG_URL);
     }
 
+    public WordPressResultPage searchCSS(String cssSelector) {
+        WebElement searchLink = driver.findElement(By.cssSelector(cssSelector)).findElement(By.tagName("a"));
+        searchLink.click();
+        return new WordPressResultPage(driver);
+    }
 }

@@ -1,9 +1,16 @@
 package selenium.pageobjects;
 
-import org.junit.jupiter.api.Assertions;
+
 import org.junit.jupiter.api.Test;
 import selenium.pageobjects.pages.GoogleMainPage;
 import selenium.pageobjects.pages.GoogleResultPage;
+//Dopisujemy .* i static, żebyśmy mogli korzystać z metod statycznych,
+//czyli nie musimy przed nimi dopisywać Assertions,
+//zaproponuje to sam, gdy pobieramy dużo (przynajmniej 3) metody z tego importu
+//import org.junit.jupiter.api.Assertions;
+import java.util.UUID;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GoogleTests extends BaseTest {
 
@@ -18,8 +25,8 @@ public class GoogleTests extends BaseTest {
         GoogleResultPage resultPage = googlePage.search("Scrum.org");
 
         //Assert Srum.org page is found
-        Assertions.assertTrue(resultPage.contains(pageURL));
-        Assertions.assertTrue(resultPage.containsResultWithTitle(pageURL, pageTitle)
+        assertTrue(resultPage.contains(pageURL));
+        assertTrue(resultPage.containsResultWithTitle(pageURL, pageTitle)
             , "Scrum.org page has correct title" );
     }
 
@@ -30,8 +37,10 @@ public class GoogleTests extends BaseTest {
 
         GoogleMainPage googlePage = new GoogleMainPage(driver);
         GoogleResultPage resultPage = googlePage.search("Code Sprinters");
-        Assertions.assertTrue(resultPage.contains(pageURL));
-        Assertions.assertTrue(resultPage.containsResultWithTitle(pageURL, pageTitle));
+        assertTrue(resultPage.contains(pageURL));
+        assertTrue(resultPage.containsResultWithTitle(pageURL, pageTitle));
+
+        String random = generateRandomText();
     }
 
 }

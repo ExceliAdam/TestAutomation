@@ -1,15 +1,14 @@
-package selenium.pageobjects;
+package selenium.wordpressnote;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    protected WebDriver driver;
+    protected static WebDriver driver;
 
     @BeforeEach
     public void startBrowser(){
@@ -22,10 +21,6 @@ public class BaseTest {
     @AfterEach
     public void quitBrowser(){
         driver.quit();
-//        driver.close(); //zamyka tylko aktywne aktywne okno/zakładkę przeglądarki
     }
 
-    protected String generateRandomText() {
-        return UUID.randomUUID().toString();
-    }
 }
