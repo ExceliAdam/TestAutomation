@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2ffd7b-f0f5-4d32-91f0-3a037c719780" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTrenerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,44 +23,107 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="208">
+              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="63" />
               <folding>
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#canFindCodeSprinters#0;class#GoogleTests#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressResultPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="method#addComenntToBenedyktPage#0;class#WordPressTests#0" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -80,6 +151,15 @@
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/GoogleTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTrenerTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/WordPressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleResultPage.java" />
       </list>
     </option>
   </component>
@@ -106,9 +186,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="122" />
+    <option name="width" value="1718" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -182,6 +262,44 @@
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestowanieDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestowanieDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestowanieDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjectswordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestowanieDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjectswordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,7 +307,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544623245634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544637394049" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -198,6 +317,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="selenium.basic" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="selenium.pageobjects.pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,46 +334,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WordPressTests.addComenntToBenedyktPage">
-    <configuration name="CalculatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WordPressTests.addComenntToBenedyktPage (1)">
+    <configuration name="GoogleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.CalculatorAppTest" />
+          <option name="PATTERN" value="selenium.pageobjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
+      <option name="PACKAGE_NAME" value="selenium.pageobjects" />
+      <option name="MAIN_CLASS_NAME" value="selenium.pageobjects.GoogleTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTests.canFindScrumOrgGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.basic.*" />
+          <option name="PATTERN" value="selenium.pageobjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selenium.basic" />
-      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="autojava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.basic" />
-      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
-      <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle" />
+      <option name="PACKAGE_NAME" value="selenium.pageobjects" />
+      <option name="MAIN_CLASS_NAME" value="selenium.pageobjects.GoogleTests" />
+      <option name="METHOD_NAME" value="canFindScrumOrgGoogle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,6 +376,22 @@
       <option name="PACKAGE_NAME" value="selenium.basic" />
       <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
       <option name="METHOD_NAME" value="verifyAuthorOfBlogNoteAboutTransformations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPressTests.addComenntToBenedyktPage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.pageobjectswordpress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.pageobjectswordpress" />
+      <option name="MAIN_CLASS_NAME" value="selenium.pageobjectswordpress.WordPressTests" />
+      <option name="METHOD_NAME" value="addComenntToBenedyktPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -291,11 +415,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordPressTests.addComenntToBenedyktPage (1)" />
         <item itemvalue="JUnit.WordPressTests.addComenntToBenedyktPage" />
+        <item itemvalue="JUnit.GoogleTests" />
+        <item itemvalue="JUnit.GoogleTests.canFindScrumOrgGoogle" />
         <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformations" />
-        <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
-        <item itemvalue="JUnit.SeleniumTests" />
-        <item itemvalue="JUnit.CalculatorAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -331,43 +455,50 @@
       <option name="project" value="LOCAL" />
       <updated>1544612223778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pisanie testów samemu">
+      <created>1544624114256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544624114256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 27m 19s.xml">
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 17h 40m 08s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 17h 40m 27s.xml">
       <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 33m 28s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 17h 41m 47s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 42m 40s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 17h 42m 32s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 44m 36s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 17h 45m 17s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 44m 59s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 17h 47m 04s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 45m 39s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 18h 06m 29s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 13h 59m 31s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 18h 10m 17s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 14h 12m 19s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 18h 11m 04s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 14h 12m 48s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordPressTests_addComenntToBenedyktPage - 2018.12.12 at 14h 14m 16s.xml">
-      <configuration name="WordPressTests.addComenntToBenedyktPage" configurationId="JUnit" />
+    <history-entry file="WordPressTests_addComenntToBenedyktPage_(1) - 2018.12.12 at 18h 11m 56s.xml">
+      <configuration name="WordPressTests.addComenntToBenedyktPage (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="98" y="0" width="1374" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -375,16 +506,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20167428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" weight="0.2567783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28470254" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3460925" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37535816" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,12 +528,41 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20167428" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.36363637" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3460925" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Przeniesienie do innego folderu" />
     <MESSAGE value="Zmiana nazw klas" />
     <MESSAGE value="Dodanie testów webDriverów i tworzenie testów www" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie testów webDriverów i tworzenie testów www" />
+    <MESSAGE value="Pisanie testów samemu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pisanie testów samemu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,6 +578,18 @@
           <line>61</line>
           <properties />
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -437,13 +609,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -474,17 +639,17 @@
     <entry file="file://$PROJECT_DIR$/Day1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTrenerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="-2183">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="200">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="90" />
           <folding>
             <element signature="e#1737#1738#0" expanded="true" />
             <element signature="e#1789#1790#0" expanded="true" />
@@ -492,13 +657,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/WordPressTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="109">
+          <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="105" />
           <folding>
-            <element signature="method#addComenntToBenedyktPage#0;class#WordPressTests#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/GoogleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#canFindCodeSprinters#0;class#GoogleTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/WordPressTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjects/pages/GoogleResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/pageobjectswordpress/pages/WordPressResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
